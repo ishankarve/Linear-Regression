@@ -8,7 +8,7 @@
 * [Objective](#Objective)
 * [Business Goal](#business-goal)
 * [Data Caveats](#data-caveats)
-* [Model Buidling](#mdel-building)
+* [Model Buidling](#model-building)
 * [Libraries Used](#Libraries-used)
 * [Data Dictionary](#data-dictionary)
 * [References](#references)
