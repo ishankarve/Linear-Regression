@@ -14,6 +14,8 @@
 * [References](#references)
 * [Inferences](#inferences)
 * [Conclusions](#conclusions)
+* [Data Citation](#data-citation)
+
 
 <!-- You can include any other section that is pertinent to your problem -->
 ## Objective
@@ -22,7 +24,7 @@
 ## Business Goal
  - Find variables are significant in predicting the demand for shared bikes and how well those variables describe the bike demands. Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
-- Based on the goal mentioned above, model the demand for shared bikes with the avail
+- Based on the goal mentioned above, model the demand for shared bikes with the available data.
 
 ## Data Caveats
 
@@ -93,7 +95,26 @@
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
+## Data Citation
 
+- The data for this project has been sourced from:
+
+- Fanaee-T, Hadi, and Gama, Joao, "Event labeling combining ensemble detectors and background knowledge", Progress in Artificial Intelligence (2013): pp. 1-15, Springer Berlin Heidelberg, doi:10.1007/s13748-013-0040-3.
+
+@article{
+	year={2013},
+	issn={2192-6352},
+	journal={Progress in Artificial Intelligence},
+	doi={10.1007/s13748-013-0040-3},
+	title={Event labeling combining ensemble detectors and background knowledge},
+	url={http://dx.doi.org/10.1007/s13748-013-0040-3},
+	publisher={Springer Berlin Heidelberg},
+	keywords={Event labeling; Event detection; Ensemble learning; Background knowledge},
+	author={Fanaee-T, Hadi and Gama, Joao},
+	pages={1-15}
+}
+
+- For further information about this dataset please contact Hadi Fanaee-T (hadi.fanaee@fe.up.pt)
 
 
 ## Contact
