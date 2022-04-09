@@ -20,7 +20,7 @@
 - Build a multiple linear regression model for the prediction of demand for shared bikes.
 
 ## Business Goal
- - Find variables are significant in predicting the demand for shared bikes and how well those variables describe the bike demands Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+ - Find variables are significant in predicting the demand for shared bikes and how well those variables describe the bike demands. Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
 
 - Based on the goal mentioned above, model the demand for shared bikes with the avail
 
