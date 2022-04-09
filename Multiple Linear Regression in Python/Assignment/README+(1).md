@@ -13,7 +13,7 @@
 * [Data Dictionary](#data-dictionary)
 * [References](#references)
 * [Inferences](#inferences)
-* [Conclusion](#conclusion)
+* [Conclusions](#conclusions)
 
 <!-- You can include any other section that is pertinent to your problem -->
 ## Objective
