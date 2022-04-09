@@ -1,5 +1,7 @@
-# Project Name
-> Outline a brief description of your project.
+# Linear Reresssion Model for Prediction of Hiring of Bikes
+> A US bike-sharing provider BoomBikes has recently suffered considerable dips in their revenues due to the ongoing Corona pandemic. The company is finding it very difficult to sustain in the current market scenario. So, it has decided to come up with a mindful business plan to be able to accelerate its revenue as soon as the ongoing lockdown comes to an end, and the economy restores to a healthy state.
+
+In such an attempt, BoomBikes aspires to understand the demand for shared bikes among the people after this ongoing quarantine situation ends across the nation due to Covid-19.
 
 
 ## Table of Contents
@@ -9,6 +11,13 @@
 * [Acknowledgements](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
+## Objective
+- Build a multiple linear regression model for the prediction of demand for shared bikes.
+
+## Business Goal
+ - Find variables are significant in predicting the demand for shared bikes and how well those variables describe the bike demands Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors.
+
+- Based on the goal mentioned above, model the demand for shared bikes with the available independent variables.
 
 ## General Information
 - Provide general information about your project here.
