@@ -10,6 +10,7 @@
 * [Data Caveats](#data-caveats)
 * [Model Buidling](#mdel-building)
 * [Libraries Used](#Libraries-used)
+* [Data Dictionary](#data-dictionary)
 * [References](#references)
 * [Inferences](#inferences)
 * [Conclusion](#conclusion)
@@ -41,7 +42,46 @@
 - Scikit Learn
 - Statsmodels
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+## Data Dictionary
+
+- instant: record index
+- dteday : date
+- season : season (1:spring, 2:summer, 3:fall, 4:winter)
+- yr : year (0: 2018, 1:2019)
+- mnth : month ( 1 to 12)
+- holiday : whether day is a holiday or not (extracted from http://dchr.dc.gov/page/holiday-schedule)
+- weekday : day of the week
+- workingday : if day is neither weekend nor holiday is 1, otherwise is 0.
+- weathersit :
+> - 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+> - 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+> - 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+> - 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+- temp : temperature in Celsius
+- atemp: feeling temperature in Celsius
+- hum: humidity
+- windspeed: wind speed
+- casual: count of casual users
+- registered: count of registered users
+- cnt: count of total rental bikes including both casual and registered
+
+## References
+* https://www.rmets.org/metmatters/beaufort-scale
+* http://www.city-data.com/forum/weather/1620160-your-personal-temperature-colors-descriptors.html
+* https://stackoverflow.com/questions/64556501/plot-only-some-columns-with-seaborn-pairplot
+* https://stackoverflow.com/questions/19071199/drop-columns-whose-name-contains-a-specific-string-from-pandas-dataframe
+* https://www.geeksforgeeks.org/multicollinearity-in-data/
+* https://github.com/statsmodels/statsmodels/issues/2376
+* https://stackoverflow.com/questions/48522609/how-to-retrieve-model-estimates-from-statsmodels
+* https://www.statsmodels.org/devel/generated/statsmodels.regression.linear_model.RegressionResults.html
+* https://stackoverflow.com/questions/37508158/how-to-extract-a-particular-value-from-the-ols-summary-in-pandas
+* https://gist.github.com/zhiyzuo/972b8b95e115c44d6805c929b7b4e2ca
+* https://stackoverflow.com/questions/47388258/how-to-extract-the-regression-coefficient-from-statsmodels-api
+* https://stackoverflow.com/questions/51734180/converting-statsmodels-summary-object-to-pandas-dataframe/52976810
+* https://gist.github.com/zhiyzuo/972b8b95e115c44d6805c929b7b4e2ca
+* https://stats.stackexchange.com/questions/101274/how-to-interpret-a-qq-plot
+* https://stats.stackexchange.com/questions/111010/interpreting-qqplot-is-there-any-rule-of-thumb-to-decide-for-non-normality/111013#111013
+* https://www.analyticsvidhya.com/blog/2021/05/know-the-best-evaluation-metrics-for-your-regression-model/
 
 ## Inferences
 
