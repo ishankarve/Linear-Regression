@@ -5,10 +5,14 @@
 
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Objective](#Objective)
+* [Business Goal](#technologies-used)
+* [Data Caveats](#conclusions)
+* [Model Buidling](#acknowledgements)
+* [Libraries Used](#acknowledgements)
+* [References](#acknowledgements)
+* [Inferences](#acknowledgements)
+* [Conclusion](#acknowledgements)
 
 <!-- You can include any other section that is pertinent to your problem -->
 ## Objective
@@ -28,7 +32,7 @@
 ## Model building
 
  - In the dataset provided,there are three columns named 'casual', 'registered', and 'cnt'. The variable 'casual' indicates the number casual users who have made a rental. The variable 'registered' on the other hand shows the total number of registered users who have made a booking on a given day. Finally, the 'cnt' variable indicates the total number of bike rentals, including both casual and registered. The model should be built taking this 'cnt' as the target variable.
- 
+
 ## General Information
 - Provide general information about your project here.
 - What is the background of your project?
