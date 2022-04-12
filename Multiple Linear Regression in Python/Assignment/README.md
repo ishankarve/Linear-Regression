@@ -13,7 +13,7 @@
 * [Data Dictionary](#data-dictionary)
 * [References](#references)
 * [Inferences](#inferences)
-* [Conclusions](#conclusions)
+* [Critical Features](#critical-features)
 * [Data Citation](#data-citation)
 
 
@@ -87,13 +87,35 @@
 
 ## Inferences
 
+- Rental demand is higher when the weather is fair (clear or mildly cloudy)
+- Not much effect on overall demand, however surge observed in casual rentals
+on non-working days
+ - Not much effect on overall demand, however surge observed in casual rentals
+on Saturday and Sunday (which incidentally are also non-working days)
+ - Significant increase observed in Summer, Autumn and Winter season.
+Significant surge observed in casual hiring in Summer season
+ - Increase in wind speed has a detrimental effect on number of bikes hired.
+Noticeable dip observed in casual rider-ship when wind speeds exceed 19 KmpH
+ - Temperature is directly correlated rider-ship till its quite warm (<35 deg C).
+Beyond which there are hardly any rentals
+ - Rentals are observed only during periods when humidity is within comfort
+levels, lower and beyond which they taper off
+ - Rental has shown growth YoY. However, data is sparse to draw any meaningful
+inferences.
+ - Rental demand is observed to increase as winter reduces and peaking towards
+autumn after which it reduces as Winter approaches.
+ - Earnings show an upswing in the Second and Fourth Quarter
 
 
-## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+
+## Critical Features
+- workingday
+- temp 
+- hum 
+- windspeed 
+- registered 
+- mnth (few)
+- season (few)
 
 ## Data Citation
 
